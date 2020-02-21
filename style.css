@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteiner {
+    text-align: center;
+    margin-top: 180px;
+}
+
+.number p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+input[type="text"] {
+    width: 289px;
+    height: 35px;
+    background: #8A61FF;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+input {
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0px 20px 0px 20px;
+    background: #ffffff;
+    border: 5px solid #8A61FF;
+    box-sizing: border-box;
+    width: 75px;
+    height: 75px;
+    color:  #8A61FF;
+    animation: impulse 1s infinite;
+}
+
+
+@keyframes impulse {
+    0% {
+      box-shadow: 0 0 0 0 #8A61FF;
+    }
+    70% {
+      box-shadow: 0 0 0 7px white;
+    }
+    100% {
+      box-shadow: 0 0 0 0 white;
+    }
+}
+    
+hr {
+    height: 5px;
+    background: #8A61FF;
+    border: none;
+    margin-top: 32px;
+}
+.result p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 32px;
+}
+
